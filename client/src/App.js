@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <h2>
-        Lyncare
+        Lyncare HomePage Setting
       </h2>
     </div>
   );
