@@ -360,5 +360,17 @@ letter-spacing: -0.78px;
 }
 
 @media  (max-width: 700px){
-
+    .products_site a{
+        display: block;
+    }
+    .Main_box h3{
+        line-height: 43px;
+    }
+    .Main_box p{
+        font-size: 16px;
+        line-height: 21px;
+    }
+    br{
+        
+    }
 }

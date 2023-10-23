@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Header.css'
 import Header_logo from './../images/H_Lyncarelogo.png'
 
@@ -5,7 +6,7 @@ import Header_logo from './../images/H_Lyncarelogo.png'
 const Header = ()=>{
   return(
     <div className="Header">
-    <p className='H_logo'><img src={ Header_logo } alt="lyncarelogo" /></p>
+     <p className='H_logo'><Link to="/"><img src={ Header_logo } alt="lyncarelogo" /></Link></p>
       
       <nav className="gnb_nav">
       
@@ -16,7 +17,7 @@ const Header = ()=>{
           </a>
      
         <ul >
-          <li className="dep1"> <span>회사소개</span>
+        <li className="dep1"><Link to="/about"><span>회사소개</span></Link>
               {/* <ol className="dropdown_menu">
                 <li><a href="">회사소개</a></li>  
                 <li><a href="">주요연혁</a></li>  
@@ -24,7 +25,7 @@ const Header = ()=>{
                 <li><a href="">찾아오시는길</a></li>  
               </ol> */}
           </li>
-          <li className="dep1"><span>제품</span>
+          <li className="dep1"><Link to="/Product"><span>제품</span></Link>
               {/* <ol className="dropdown_menu">
                 <li><a href="">차량용 에어컨필터</a></li>  
                 <li><a href="">기술력 / 공정</a></li>  
