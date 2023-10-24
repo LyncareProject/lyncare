@@ -129,6 +129,13 @@
     }
 }
 @media  (max-width: 630px){
+    .Footer {
+        padding: 0 5px;
+    }
+    .Footer_1, .address {
+        width: 90%;
+        margin: 0 auto;
+    }
     .Footer_logo img{
         width: 130px;
     }

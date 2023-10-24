@@ -32,7 +32,7 @@ const Header = ()=>{
                 <li><a href="">우리동네 정비소</a></li>  
               </ol> */}
           </li>
-          <li className="dep1"><span>지원</span>
+          <li className="dep1"><Link to="/Support"><span>지원</span></Link>
               {/* <ol className="dropdown_menu">
                 <li>차종호환표</li>  
                 <li>필터교체방법</li>  
@@ -48,7 +48,7 @@ const Header = ()=>{
                 <li>채용안내</li>  
               </ol>
           </li> */}
-          <li className="dep1"><span>문의</span>
+          <li className="dep1"><Link to="/Contact"><span>문의</span></Link>
               {/* <ol className="dropdown_menu">
                 <li>문의하기</li>  
               </ol> */}
