@@ -10,11 +10,15 @@ app.use(cors());
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
+const mainRouter = require('./routes/index')
+
 app.use(express.static(path.join(__dirname, '../../client/build')));
 
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '../../client/build/index.html'));
 });
+
+app.use('/api', mainRouter)
 
 app.use((err, req, res, next) => {
   res.statusCode = err.statusCode || 500

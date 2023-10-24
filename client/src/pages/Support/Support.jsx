@@ -2,6 +2,7 @@ import './Support.css'
 import Support_bg from './../../components/images/Support/Support.png'
 import VehicleCompatibilityTable from './../../components/images/Support/VehicleCompatibilityTable.png'
 import HowToReplacefilter from './../../components/images/Support/HowToReplacefilter.png'
+import SearchFilter from '../../components/SearchFilter/SearchFilter'
 
 
 const Support = ()=> {
@@ -13,11 +14,11 @@ const Support = ()=> {
         <div className='Support_wrap'>
           <div className='Vehicle_Compatibility_Table'>
             <h3>디블럭 필터 호환차종 안내</h3>
+            <SearchFilter />
             <p><img src={ VehicleCompatibilityTable } alt="lyncare Support페이지" />lyncare Support페이지</p>
           </div>
         </div>
         <hr />
-
         <div className='How_To_Replacefilter'>
           <div className='How_To_Replacefilter_text'>
             <h3>필터 교체방법 안내</h3>
