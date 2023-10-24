@@ -23,6 +23,12 @@ jobs:
             git pull origin main
             cd /home/ubuntu/lyncare/server
             echo "PORT=${{ secrets.PORT }}" >> .env
+            echo "WSPORT=${{ secrets.WSPORT }}" >> .env
+            echo "MONGO_USER=${{ secrets.MONGO_USER }}" >> .env
+            echo "MONGO_PASSWORD=${{ secrets.MONGO_PASSWORD }}" >> .env
+            echo "MONGO_CLUSTER=${{ secrets.MONGO_CLUSTER }}" >> .env
+            echo "MONGO_DBNAME=${{ secrets.MONGO_DBNAME }}" >> .env
+            echo "OPENAI_KEY=${{ secrets.OPENAI_KEY }}" >> .env
             export NVM_DIR=~/.nvm
             source ~/.nvm/nvm.sh
             npm install 
