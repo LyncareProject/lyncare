@@ -2,7 +2,7 @@ import "./Contact.css";
 import Contact_bg from "./../../components/images/Contact/Contact.png";
 import callImg from "./../../components/images/Contact/call.png";
 import emailImg from "./../../components/images/Contact/email.png";
-import { useCallback, useState } from "react";
+import { useState } from "react";
 import { postEmail } from "../../service/emailService";
 
 const Contact = (props) => {

@@ -1,4 +1,5 @@
 import './Main.css'
+import { Link } from 'react-router-dom';
 import Main_bg from './../components/images/Main_bg.png'
 import Main_products_bg from './../components/images/Main_products.png'
 import Main_woridongne from './../components/images/Main_Myneighborhoodrepairshop.png'
@@ -25,12 +26,8 @@ return (
         다음과 같은 제품과 서비스를 제공합니다
       </h5>
       <div className="products_site">
-        <a  >
-        <span>&#8594;</span> DBLOCK 디블럭 에어컨필터
-        </a>
-        <a   >
-        <span>&#8594;</span> 우리동네 정비소 
-        </a>
+      <Link to="/product"> <span>&#8594;</span> DBLOCK 디블럭 에어컨필터</Link>
+      <Link to="/product"><span>&#8594;</span> 우리동네 정비소 </Link>
       </div>
       <div className='Main_box_list'>
         <div className='Main_box , Main_box1'>
@@ -80,9 +77,9 @@ return (
         뛰어난 통풍성과 더불어 미세먼지와 유해물질, 냄새까지 잡는 만능 필터입니다
         </p>
         <div className="products_site">
-          <a   >
+        <Link to="/product">
             <span>&#8594;</span> DBLOCK 디블럭 에어컨필터
-          </a>
+          </Link>
         </div>
       </div>
     </div>
@@ -103,9 +100,9 @@ return (
           {/* <a   href="/">
             <span>&#8594;</span> DBLOCK 디블럭 에어컨필터
           </a> */}
-          <a >
+          <Link to="/product">
             <span>&#8594;</span> 우리동네 정비소 
-          </a>
+          </Link>
         </div>
       </div>
     </div>

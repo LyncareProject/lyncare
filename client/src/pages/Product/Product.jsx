@@ -99,7 +99,7 @@ const Product = ()=>{
                         공임비를 지불하거나, 전문가의 손길 없이도 <span>남녀노소 누구나 <br />
                         5분 안에 직접 교체가능합니다</span>
                         </p>
-                        <Link to="/Product"><p className='Special5_link'><a>교체방법 보러가기&gt;</a></p></Link>
+                        <Link to="/Support"><p className='Special5_link'>교체방법 보러가기&gt;</p></Link>
                        
                        
                     </div>
