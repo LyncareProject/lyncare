@@ -193,7 +193,9 @@ padding-top: 25px;
 .Lyncare_Contact_bg_m{
   display: none;
 }
-
+.ContactBtn {
+  cursor: pointer;
+}
 @media  (max-width: 1100px){
   .Context_form{
     display: block;

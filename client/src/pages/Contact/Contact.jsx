@@ -115,7 +115,7 @@ const Contact = (props) => {
                 onChange={handleInputs}
               />
             </p>
-            <button onClick={sendEmailBtn}>접수하기</button>
+            <button className="ContactBtn" onClick={sendEmailBtn}>접수하기</button>
           </div>
         </div>
 
