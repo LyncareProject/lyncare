@@ -3,8 +3,6 @@ const db = require("../models");
 const nodemailer = require('nodemailer');
 const { EMAIL_SERVICE, EMAIL_USER, EMAIL_PASSWORD } = require('../common')
 
-const { email : Email } = db;
-
 const transporter = nodemailer.createTransport({
     service: EMAIL_SERVICE,   // 메일 보내는 곳
     prot: 587,
@@ -23,7 +21,7 @@ exports.postEmail = async (req, res) => {
         await transporter.sendMail({
             from: EMAIL_USER, // sender address
             to: "lyncare@lyncare.co.kr", // list of receivers
-            subject: "Lyncare 문의",
+            subject: "Lyncare 문의가 왔습니다",
             html: `<p>company : ${ company }</p>
             <p>call : ${ call }</p> 
             <p>email : ${ email }</p> 

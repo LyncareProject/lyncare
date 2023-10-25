@@ -5,6 +5,9 @@ const MONGO_PASSWORD = process.env.MONGO_PASSWORD
 const MONGO_CLUSTER = process.env.MONGO_CLUSTER
 const MONGO_DBNAME = process.env.MONGO_DBNAME
 const OPENAI_KEY = process.env.OPENAI_KEY
+const EMAIL_SERVICE = process.env.EMAIL_SERVICE
+const EMAIL_USER = process.env.EMAIL_USER
+const EMAIL_PASSWORD = process.env.EMAIL_PASSWORD
 
 const APP_CONFIG_JSON = JSON.stringify({
   PORT,
