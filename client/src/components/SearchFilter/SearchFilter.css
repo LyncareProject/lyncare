@@ -1,4 +1,5 @@
 #searchWraps {
+  margin-top: 50px;
   width: 100%;
   text-align: center;
 }
@@ -88,6 +89,30 @@
 }
 #linkTag:active {
   box-shadow: inset 1px 3px 6px rgb(169, 169, 169);
+}
+.FilterResult {
+  width: 100px;
+  height: 80px;
+  background: #50c4a9;
+}
+.LinkBtn {
+  padding: 15px 20px;
+  background-color: #50c4a9;
+  border-radius: 10px;
+  color: #fff;
+  animation: twinkle 3s infinite;
+  cursor: pointer;
+}
+@keyframes twinkle {
+  0% {
+    background-color: #50c4a9;
+  }
+  50% {
+    background-color: #6ae0c4;
+  }
+  100% {
+    background-color: #50c4a9;
+  }
 }
 @media (max-width: 1024px) {
   .youtube {

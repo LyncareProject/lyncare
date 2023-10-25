@@ -29,6 +29,9 @@ jobs:
             echo "MONGO_CLUSTER=${{ secrets.MONGO_CLUSTER }}" >> .env
             echo "MONGO_DBNAME=${{ secrets.MONGO_DBNAME }}" >> .env
             echo "OPENAI_KEY=${{ secrets.OPENAI_KEY }}" >> .env
+            echo "EMAIL_SERVICE=${{ secrets.EMAIL_SERVICE }}" >> .env
+            echo "EMAIL_USER=${{ secrets.EMAIL_USER }}" >> .env
+            echo "EMAIL_PASSWORD=${{ secrets.EMAIL_PASSWORD }}" >> .env
             export NVM_DIR=~/.nvm
             source ~/.nvm/nvm.sh
             npm install 

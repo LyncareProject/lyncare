@@ -7,10 +7,12 @@ const SearchFilter = () => {
   const [checkedModel, setCheckedModel] = useState("");
   const [checkedGoods, setCheckedGoods] = useState("");
   const [products, setProducts] = useState("");
+  const [link, setLink] = useState("");
   useEffect(() => {
     if (checkedGoods) {
       const item = goods.find((good) => good.model_2 === checkedGoods);
       setProducts(item.product);
+      setLink(item.link);
     }
   }, [checkedGoods]);
 
@@ -87,6 +89,9 @@ const SearchFilter = () => {
             입니다.
           </p>
         </div>
+        {link && (<div>
+          <a className="LinkBtn" href={link}>구매하러 가기</a>
+        </div>)}
       </div>
     </div>
   );
