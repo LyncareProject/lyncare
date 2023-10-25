@@ -13,9 +13,9 @@
   font-size: 64px;
 }
 .Sending p {
-  animation: twinkle 1.5s infinite;
+  animation: textTwinkle 1.5s infinite;
 }
-@keyframes twinkle {
+@keyframes textTwinkle {
   0% {
     opacity: 1;
   }
