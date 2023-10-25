@@ -9,10 +9,10 @@ const connectToDatabase = require('./src/mongo');
 connectToDatabase()  
     .then(() => {
         app.listen(PORT, () => {
-            console.log(`App listening at ${PORT}`);
+            console.log(`Main Server is listening at ${PORT}`);
         }) 
         server.listen(WSPORT, () => {
-            console.log(`WebSocket Server is listening at http://localhost:${ WSPORT }`);
+            console.log(`WebSocket Server is listening at ${ WSPORT }`);
         });
     })
     .catch(error => {
