@@ -1,39 +1,49 @@
-import { Link } from 'react-router-dom';
-import './Header.css'
-import Header_logo from './../images/H_Lyncarelogo.png'
+import { Link } from "react-router-dom";
+import "./Header.css";
+import Header_logo from "./../images/H_Lyncarelogo.png";
 
-
-const Header = ()=>{
-  return(
+const Header = () => {
+  return (
     <div className="Header">
-     <p className='H_logo'><Link to="/"><img src={ Header_logo } alt="lyncarelogo" /></Link></p>
-      
+      <p className="H_logo">
+        <Link to="/">
+          <img src={Header_logo} alt="lyncarelogo" />
+        </Link>
+      </p>
+
       <nav className="gnb_nav">
-      
-          <a class="menu-trigger" href="#">
-            <span></span>
-            <span></span>
-            <span></span>
-          </a>
-     
-        <ul >
-        <li className="dep1"><Link to="/about"><span>회사소개</span></Link>
-              {/* <ol className="dropdown_menu">
+        <a class="menu-trigger" href="#">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+        <ul>
+          <li className="dep1">
+            <Link to="/about">
+              <span>회사소개</span>
+            </Link>
+            {/* <ol className="dropdown_menu">
                 <li><a href="">회사소개</a></li>  
                 <li><a href="">주요연혁</a></li>  
                 <li><a href="">인증현황</a></li>  
                 <li><a href="">찾아오시는길</a></li>  
               </ol> */}
           </li>
-          <li className="dep1"><Link to="/Product"><span>제품</span></Link>
-              {/* <ol className="dropdown_menu">
+          <li className="dep1">
+            <Link to="/product">
+              <span>제품</span>
+            </Link>
+            {/* <ol className="dropdown_menu">
                 <li><a href="">차량용 에어컨필터</a></li>  
                 <li><a href="">기술력 / 공정</a></li>  
                 <li><a href="">우리동네 정비소</a></li>  
               </ol> */}
           </li>
-          <li className="dep1"><Link to="/Support"><span>지원</span></Link>
-              {/* <ol className="dropdown_menu">
+          <li className="dep1">
+            <Link to="/support">
+              <span>지원</span>
+            </Link>
+            {/* <ol className="dropdown_menu">
                 <li>차종호환표</li>  
                 <li>필터교체방법</li>  
                 <li>필터검색</li>  
@@ -48,19 +58,18 @@ const Header = ()=>{
                 <li>채용안내</li>  
               </ol>
           </li> */}
-          <li className="dep1"><Link to="/Contact"><span>문의</span></Link>
-              {/* <ol className="dropdown_menu">
+          <li className="dep1">
+            <Link to="/contact">
+              <span>문의</span>
+            </Link>
+            {/* <ol className="dropdown_menu">
                 <li>문의하기</li>  
               </ol> */}
           </li>
         </ul>
-        <p className='N_bg'></p>
+        <p className="N_bg"></p>
       </nav>
-
-       
-      
     </div>
-  )
-}
-export default Header
-
+  );
+};
+export default Header;
