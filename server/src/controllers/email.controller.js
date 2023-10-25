@@ -6,8 +6,8 @@ const { contact: Contact } = db;
 
 const transporter = nodemailer.createTransport({
   service: EMAIL_SERVICE, // 메일 보내는 곳
-  prot: 587,
-  host: "http://localhost:8080",
+  prot: 465,
+  host: "smtp.gmail.com",
   secure: false,
   requireTLS: true,
   auth: {
@@ -19,9 +19,9 @@ const transporter = nodemailer.createTransport({
 exports.postEmail = async (req, res) => {
   try {
     const { company, call, email, name, phone, desc } = req.body;
-    await transporter.sendMail({
+    const sendEmail = await transporter.sendMail({
       from: EMAIL_USER, // sender address
-      to: "lyncare@lyncare.co.kr",
+      to: ["lyncare@lyncare.co.kr", "kimkuns98@gmail.com"],
       subject: "Lyncare 문의가 왔습니다",
       html: `<p>company : ${company}</p>
             <p>call : ${call}</p> 
@@ -30,7 +30,8 @@ exports.postEmail = async (req, res) => {
             <p>name : ${name}</p> 
             <p>desc : ${desc}</p>`,
     });
-    const newContact = new Contact({ company, call, email, name, phone, desc })
+    console.log(sendEmail)
+    const newContact = new Contact({ company, call, email, name, phone, desc });
     await newContact.save();
     res.status(200).json({ message: "Success" });
   } catch (error) {
