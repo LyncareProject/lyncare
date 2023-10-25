@@ -5,7 +5,7 @@ import emailImg from "./../../components/images/Contact/email.png";
 import { useCallback, useState } from "react";
 import { postEmail } from "../../service/emailService";
 
-const Contact = () => {
+const Contact = (props) => {
   const [inputs, setInputs] = useState({
     company: "",
     call: "",
@@ -24,10 +24,13 @@ const Contact = () => {
   };
   const sendEmailBtn = async () => {
     try {
+      props.setSending(true)
       await postEmail({ company, call, email, name, phone, desc });
       alert("문의가 성공적으로 접수되었습니다.");
     } catch (error) {
       alert(error.message);
+    } finally {
+      props.setSending(false)
     }
   };
   return (
