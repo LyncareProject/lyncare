@@ -1,129 +1,126 @@
-ul , ol{
-    list-style: none;
-    padding: 0;
-    margin: 0;
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
-a{
-    color: black;
-    text-decoration: none;
-}
-
-.Header{
-    position: relative;
-    max-width: 1000px;
-    margin: 0 auto;
-    height: auto;
-   
-}
-#gnb{
-    display: flex;
-    height: 150px;
-}
-.H_logo{
-   
-    left: 0;
-    top: 10px;
-    width: 200px;
-    height:68px;
-    margin-left: 0;
-    
-}
-.H_logo img{
-    display: block;
-    width: 160px;
-}
-.gnb_nav{
-    position: absolute;
-    display: flex;
-    top: 1px;
-    right: 0;
-} 
-.gnb_nav ul{
-    display: flex;
-   margin: 0 auto;
-} 
-.gnb_nav .dep1 {
-    display: block;
-    margin-left: 50px;  
+a {
+  color: black;
+  text-decoration: none;
 }
 
-
-.gnb_nav .dep1 span{
-    position: relative;
-    display: block;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 3;
-   
+.Header {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
 }
-
-.dep1 li{
-    line-height: 1.6;
+#gnb {
+  display: flex;
+  height: 150px;
+}
+.H_logo {
+  left: 0;
+  top: 10px;
+  width: 200px;
+  height: 68px;
+  margin-left: 0;
+  
   
 }
-
-.gnb_nav .dep1 span:hover{
-    color: #000;
-    cursor: pointer;
-    transition:all 0.3s;
-    
+.H_logo img {
+  display: block;
+  width: 160px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
-.gnb_nav .dep1 span:before{
-    width: 100%;
-    border-bottom: 3px solid #000;
+.gnb_nav {
+  position: absolute;
+  display: flex;
+  top: 6px;
+  right: 0;
+}
+.gnb_nav ul {
+  display: flex;
+  margin: 0 auto;
+}
+.gnb_nav .dep1 {
+  display: block;
+  margin-left: 50px;
 }
 
- .dep1 span:after {
-    content: "";
-    width: 0%;
-    height: 100%;
-    top: -10px;
-    position: absolute;
-    left: 0;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -ms-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    transition: all 0.4s;
-    border-bottom: 3px solid #000;
-    z-index: 100;
+.gnb_nav .dep1 span {
+  position: relative;
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 3;
+}
+
+.dep1 li {
+  line-height: 1.6;
+}
+
+.gnb_nav .dep1 span:hover {
+  color: #000;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.gnb_nav .dep1 span:before {
+  width: 100%;
+  border-bottom: 3px solid #000;
+}
+
+.dep1 span:after {
+  content: "";
+  width: 0%;
+  height: 100%;
+  top: -10px;
+  position: absolute;
+  left: 0;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  border-bottom: 3px solid #000;
+  z-index: 100;
 }
 
 .dep1 span:hover:after {
-    width: 100%;
-    z-index: +1;
+  width: 100%;
+  z-index: +1;
 }
 
-.dep1 a:hover{
-    color: #000;
-    cursor: pointer;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -ms-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    transition: all 0.4s;
+.dep1 a:hover {
+  color: #000;
+  cursor: pointer;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
-.dropdown_menu{
-    display: none;
+.dropdown_menu {
+  display: none;
 }
-.dropdown_menu li:hover{
-    color: #000;
-    cursor: pointer;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -ms-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    transition: all 0.4s;
-}
-
-.dropdown_menu li{
-   opacity: 1;
+.dropdown_menu li:hover {
+  color: #000;
+  cursor: pointer;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
-.gnb_nav .dep1:hover .dropdown_menu li{
-   opacity: 1;
-   transition:  all 0.5s;
+.dropdown_menu li {
+  opacity: 1;
+}
+
+.gnb_nav .dep1:hover .dropdown_menu li {
+  opacity: 1;
+  transition: all 0.5s;
 }
 
 /* 햄버거 */
@@ -134,7 +131,7 @@ a{
 .menu-trigger,
 .menu-trigger span {
   display: inline-block;
-  transition: all .4s;
+  transition: all 0.4s;
   box-sizing: border-box;
 }
 
@@ -153,7 +150,6 @@ a{
   height: 4px;
   background-color: #000;
   border-radius: 4px;
-  
 }
 
 .menu-trigger span:nth-of-type(1) {
@@ -167,7 +163,6 @@ a{
 .menu-trigger span:nth-of-type(3) {
   bottom: 0px;
 }
-
 
 /* 회전 */
 /* .menu-trigger.active-1 span:nth-of-type(1) {
@@ -183,81 +178,75 @@ a{
     -webkit-transform: translateY(-20px) rotate(45deg);
     transform: translateY(-20px) rotate(45deg);
   } */
-  @media  (max-width: 1200px){
-    .H_logo{
-        margin-left:3vw;
+@media (max-width: 1200px) {
+    .Header {
+        height: 70px;
+        display: flex;
     }
-    .gnb_nav{
-        right: 0;
-        
-    }
+  .H_logo {
+    margin-left: 3vw;
+    margin-top: 2px;
   }
-@media  (max-width: 1100px){
-    .H_logo img{
-        width: 150px;
-     
-    }
-    .gnb_nav{
-        position: absolute;
-        right: 5vw;
-        top: 0;
-        margin-left: 0;
-    }
-    .gnb_nav .dep1{
-        margin-left: 30px;
-    }
-    .gnb_nav .dep1 span{
-        font-size: 18px;
-    }
+  .gnb_nav {
+    margin-top:2px;
+  }
+}
+@media (max-width: 1100px) {
+  .H_logo img {
+    margin-top: 2px;
+    width: 150px;
+  }
+  .gnb_nav {
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    margin-top: 8.5px;
+    margin-left: 0;
+  }
+  .gnb_nav .dep1 {
+    margin-left: 30px;
+  }
+  .gnb_nav .dep1 span {
+    font-size: 18px;
+  }
 }
 
-@media  (max-width: 800px){
+@media (max-width: 600px) {
+    .Header {
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+  .gnb_nav ul {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: auto;
+    top: -30px;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+
+    background-color: rgba(144, 144, 144, 0.9);
+  }
+  .gnb_nav {
+    display: block;
+    width: 100%;
+    height: auto;
+    top: 0;
+
+    margin: 0;
+    left: 0;
+    z-index: 100;
+  }
+  .gnb_nav .dep1 {
+    margin: 0;
+  }
+  /* 햄버거 */
+  .menu-trigger {
+    display: block;
     
-    .gnb_nav ul{
-        position: absolute;
-        display: none;
-        width: 100%;
-        height: auto;
-        top: -30px;
-        padding-top: 120px;
-        padding-bottom: 30px;
-        margin: 0 auto;
-        
-        background-color: rgba(144, 144, 144, 0.9);
-    }
-    .gnb_nav{
-        display: block;
-        width: 100%;
-        height: auto;
-        top: 0;
-       
-        margin: 0;
-        left: 0;
-        z-index: 100;
-    }
-    .gnb_nav .dep1 {
-        margin: 0;
-    }
-    /* 햄버거 */
-    .menu-trigger {
-       display: block;
-    }
-}
-@media  (max-width: 700px){
-    /* .H_logo {
-        margin-left: 20px;
-        margin-top: 30px;
-    }
-    .section1 h2{
-        font-size: 20px;
-        margin-left: 7%;
-        
-    }
-    .section_text1{
-        top: 45%;
-    }
-    .section_text2{
-        top: 62%;
-        line-height: 25px;
-    } */
+  }
+  .sidebar-button img{
+    margin-top: -10px;
+  }
 }

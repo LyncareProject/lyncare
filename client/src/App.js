@@ -9,6 +9,7 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import { useState } from 'react';
 import Sending from './pages/Sending/Sending';
+import Sidebar from './components/Sidebar/Sidebar';
 
 function App() {
   const [ sending, setSending ] = useState(false)
@@ -19,6 +20,7 @@ function App() {
         sending && <Sending />
       }
       <Header />
+      <Sidebar />
       <Routes>
         <Route path='/' element={<Main />} />
         <Route path='/about' element={<About />} />

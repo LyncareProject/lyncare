@@ -123,7 +123,7 @@
   height: 284px;
   border-radius: 4px;
 }
-.Inquiry_details p input{
+.Inquiry_details p textarea{
   position: relative;
   width: 638px;
   height: 284px;
@@ -132,12 +132,13 @@
   box-sizing: border-box;
   color: #ADADAD;
   font-family: Pretendard;
-  font-size: 14px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 700;
   vertical-align: baseline;
-  text-indent: 20px;
-  
+  padding: 17px 20px;
+  text-align: left;
+  word-break: break-all;
 }
 .Inquiry_details button{
   width: 125px;
@@ -285,7 +286,7 @@ padding-top: 25px;
   .Contact_info ul li{
     width: 100%;
   }
-  .Inquiry_details , .Inquiry_details p , .Inquiry_details p input{
+  .Inquiry_details , .Inquiry_details p , .Inquiry_details p textarea{
     width: 100%;
   }
 }
