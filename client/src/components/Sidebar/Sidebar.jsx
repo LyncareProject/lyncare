@@ -37,7 +37,7 @@ function Sidebar() {
       </button>
       {isOpen && (
         <div className='nav_link'>
-          <Link to="/" onClick={closeSidebar}><p>홈</p></Link>
+          {/* <Link to="/" onClick={closeSidebar}><p>홈</p></Link> */}
           <Link to="/about" onClick={closeSidebar}><p>회사소개</p></Link>
           <Link to="/Product" onClick={closeSidebar}><p>제품</p></Link>
           <Link to="/Support" onClick={closeSidebar}><p>지원</p></Link>

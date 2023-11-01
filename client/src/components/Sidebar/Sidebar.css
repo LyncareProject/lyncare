@@ -50,7 +50,7 @@
   font-weight: 600;
   font-size: 18px;
   text-align: center;
-  line-height: 22px;
+  margin-bottom: 24px;
 }
 .nav_link p:hover{
   text-decoration: underline;
