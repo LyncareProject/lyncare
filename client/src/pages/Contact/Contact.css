@@ -86,7 +86,6 @@
 
 /* Contact_info */
 
-.Contact_info {}
 .Contact_info .middle{
   color: #000;
   font-family: Pretendard;
@@ -96,8 +95,7 @@
   line-height: normal;
   margin-bottom: 15px;
 }
-.Contact_info ul{}
-.Contact_info ul li{}
+
 .Contact_info ul li input{
   width: 309px;
   height: 46px;
@@ -117,7 +115,7 @@
 }
 
 /* Inquiry_details */
-.Inquiry_details{}
+
 .Inquiry_details p{
   width: 638px;
   height: 284px;
@@ -139,6 +137,7 @@
   padding: 17px 20px;
   text-align: left;
   word-break: break-all;
+  resize: none;
 }
 .Inquiry_details button{
   width: 125px;
@@ -153,7 +152,6 @@
   font-weight: 700;
   line-height: 30px; /* 176.471% */
   letter-spacing: -0.51px;
-  /* ㅇㅇ */
 }
 
 /* Lyncare_Contact */
@@ -180,7 +178,7 @@ letter-spacing: -0.6px;
 text-indent: 36px;
 padding-top: 25px;
 }
-.Lyncare_Contact_bg ul{}
+
 .Lyncare_Contact_bg ul li{
   color: #000;
   font-family: Pretendard;
@@ -270,7 +268,7 @@ padding-top: 25px;
     
     
   }
-  .Lyncare_Contact_bg_m{}
+
 }
 
 @media  (max-width: 800px){

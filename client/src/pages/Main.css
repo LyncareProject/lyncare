@@ -184,7 +184,7 @@ letter-spacing: -0.78px;
     position: absolute;
     top: 45px;
     left: 43px;
-    width: 225px;
+    width: 100%;
     height: 45px;
     color: #000;
     font-family: 'Pretendard-Bold';
@@ -292,6 +292,9 @@ letter-spacing: -0.78px;
         margin-top: -19vh;
         margin-left: 5vw;
         margin-bottom: 60px;
+    }
+    .section_text2 br{
+        display: none;
     }
 }
 
