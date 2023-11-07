@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.3e326db4.css",
+    "main.css": "/static/css/main.150811ac.css",
     "main.js": "/static/js/main.e567ce3b.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/VehicleCompatibilityTable.png": "/static/media/VehicleCompatibilityTable.1627868584743b10cea6.png",
@@ -47,12 +47,12 @@
     "static/media/Public-Procurement-Service2.png": "/static/media/Public-Procurement-Service2.a32db8da7a9e77c302a4.png",
     "static/media/Ministry_of_Science_and_Technology.png": "/static/media/Ministry_of_Science_and_Technology.84b383049d7bd7c50041.png",
     "index.html": "/index.html",
-    "main.3e326db4.css.map": "/static/css/main.3e326db4.css.map",
+    "main.150811ac.css.map": "/static/css/main.150811ac.css.map",
     "main.e567ce3b.js.map": "/static/js/main.e567ce3b.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e326db4.css",
+    "static/css/main.150811ac.css",
     "static/js/main.e567ce3b.js"
   ]
 }
