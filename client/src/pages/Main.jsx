@@ -11,7 +11,7 @@ return (
   <div className="Main">
     <div className="section1">
      {/* <p className='Main_bg'><img src={ Main_bg } alt="Main_bg" /></p> */}
-     <p className='Main_bg' style={{ width: '100%' }}> <video style={{  width: '100%', height: '100%', objectFit: 'cover' }} autoPlay muted playsInline loop poster={ Main_bg }>
+     <p className='Main_bg' style={{ width: '100%', zIndex:'0' }}> <video style={{  width: '100%', height: '100%', objectFit: 'cover', zIndex:'0' }} autoPlay muted playsInline loop poster={ Main_bg }>
         <source 
           src={ MainVideo }
           type="video/mp4"
