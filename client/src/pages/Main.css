@@ -26,7 +26,11 @@
     position: relative;
     width: 100%;
 }
-
+.Main_bg{
+    width: 100%;
+    max-height: 850px;
+    overflow: hidden;
+}
 .Main_bg img{
     width: 100%;
     max-height: auto;

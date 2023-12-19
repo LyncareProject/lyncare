@@ -1,6 +1,7 @@
 import './Main.css'
 import { Link } from 'react-router-dom';
 import Main_bg from './../components/images/Main_bg.png'
+import MainVideo from './../components/Video/MainVideo1440p.mp4'
 import Main_products_bg from './../components/images/Main_products.png'
 import Main_woridongne from './../components/images/Main_Myneighborhoodrepairshop.png'
 import Main_woridongne2 from './../components/images/Main_Myneighborhoodrepair shopr_jobvacancy.png'
@@ -9,7 +10,14 @@ const Main = ()=>{
 return (
   <div className="Main">
     <div className="section1">
-     <p className='Main_bg'><img src={ Main_bg } alt="Main_bg" /></p>
+     {/* <p className='Main_bg'><img src={ Main_bg } alt="Main_bg" /></p> */}
+     <p className='Main_bg' style={{ width: '100%' }}> <video style={{  width: '100%', height: '100%', objectFit: 'cover' }} autoPlay muted playsInline loop poster={ Main_bg }>
+        <source 
+          src={ MainVideo }
+          type="video/mp4"
+        />
+      </video>
+      </p>
       <div className='section1_text'>
         <h2 className='section_text1'>Fresh Drive</h2>
         <h2 className='section_text2'>

@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.e640dc60.css",
-    "main.js": "/static/js/main.44202102.js",
+    "main.css": "/static/css/main.1940c8ca.css",
+    "main.js": "/static/js/main.9956383c.js",
     "static/js/787.d5fa4d18.chunk.js": "/static/js/787.d5fa4d18.chunk.js",
+    "static/media/MainVideo1440p.mp4": "/static/media/MainVideo1440p.3aa488b8885f082e4b49.mp4",
     "static/media/VehicleCompatibilityTable.png": "/static/media/VehicleCompatibilityTable.1627868584743b10cea6.png",
     "static/media/Main_bg.png": "/static/media/Main_bg.22b92e398b130dcd6b3f.png",
     "static/media/Main_products.png": "/static/media/Main_products.9d402350ae0a5cd7919b.png",
@@ -47,12 +48,12 @@
     "static/media/Public-Procurement-Service2.png": "/static/media/Public-Procurement-Service2.a32db8da7a9e77c302a4.png",
     "static/media/Ministry_of_Science_and_Technology.png": "/static/media/Ministry_of_Science_and_Technology.84b383049d7bd7c50041.png",
     "index.html": "/index.html",
-    "main.e640dc60.css.map": "/static/css/main.e640dc60.css.map",
-    "main.44202102.js.map": "/static/js/main.44202102.js.map",
+    "main.1940c8ca.css.map": "/static/css/main.1940c8ca.css.map",
+    "main.9956383c.js.map": "/static/js/main.9956383c.js.map",
     "787.d5fa4d18.chunk.js.map": "/static/js/787.d5fa4d18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e640dc60.css",
-    "static/js/main.44202102.js"
+    "static/css/main.1940c8ca.css",
+    "static/js/main.9956383c.js"
   ]
 }
