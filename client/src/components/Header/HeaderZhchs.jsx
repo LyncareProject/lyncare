@@ -6,37 +6,35 @@ import Sidebar from "../Sidebar/Sidebar";
 const Header = () => {
   return (
     <div className="Header">
-      <Link to="/" className="H_logo">
+      <Link to="/Zhchs" className="H_logo">
         <img src={Header_logo} alt="lyncarelogo" />
       </Link>
 
       <nav className="gnb_nav">
         <ul>
           <li className="dep1">
-            <Link to="/about">
-              <span>회사소개</span>
+            <Link to="/aboutZhchs">
+              <span>公司介绍</span>
             </Link>
           </li>
           <li className="dep1">
-            <Link to="/Product">
-              <span>제품</span>
+            <Link to="/ProductZhchs">
+              <span>产品</span>
             </Link>
           </li>
           <li className="dep1">
-            <Link to="/Support">
-              <span>지원</span>
+            <Link to="/SupportZhchs">
+              <span>服务</span>
             </Link>
           </li>
 
           <li className="dep1">
-            <Link to="/Contact">
-              <span>문의</span>
+            <Link to="/ContactZhchs">
+              <span>咨询</span>
             </Link>
           </li>
 
-
-        <li>
-        <ol className="sub_nav">
+          <ol className="sub_nav">
           <li className="dep2">
             <Link to="/">
                 <span>🇰🇷 한국어</span>
@@ -44,14 +42,12 @@ const Header = () => {
             </li>
 
           <li className="dep2">
-            <Link to="/Zhchs">
+            <Link to="/MainZhchs">
                 <span>🇨🇳 華語(繁體)</span>
               </Link>
             </li>
         </ol>
-        
-        </li>
-        
+
         </ul>
         <p className="N_bg"></p>
       </nav>

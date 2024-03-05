@@ -38,10 +38,10 @@ function Sidebar() {
       {isOpen && (
         <div className='nav_link'>
           {/* <Link to="/" onClick={closeSidebar}><p>홈</p></Link> */}
-          <Link to="/about" onClick={closeSidebar}><p>회사소개</p></Link>
-          <Link to="/Product" onClick={closeSidebar}><p>제품</p></Link>
-          <Link to="/Support" onClick={closeSidebar}><p>지원</p></Link>
-          <Link to="/Contact" onClick={closeSidebar}><p>문의</p></Link>
+          <Link to="/aboutZhchs" onClick={closeSidebar}><p>公司介绍</p></Link>
+          <Link to="/ProductZhchs" onClick={closeSidebar}><p>产品</p></Link>
+          <Link to="/SupportZhchs" onClick={closeSidebar}><p>服务</p></Link>
+          <Link to="/ContactZhchs" onClick={closeSidebar}><p>咨询</p></Link>
           <Link to="/" onClick={closeSidebar}><p>🇰🇷 한국어</p></Link>
           <Link to="/Zhchs" onClick={closeSidebar}><p>🇨🇳 華語(繁體)</p></Link>
         </div>
