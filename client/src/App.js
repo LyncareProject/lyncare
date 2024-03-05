@@ -23,7 +23,7 @@ function App() {
   const lang = navigator.language.toLowerCase().substring(0.2);
   const navigate = useNavigate();
   useEffect(() => {
-    if (lang === "zh") {
+    if (lang === "zh-cn") {
       if (window.location.href.indexOf("zh-chs") !== -1) {
         return !1;
       } else {
