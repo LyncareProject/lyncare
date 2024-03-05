@@ -6,7 +6,7 @@ import Sidebar from "../Sidebar/Sidebar";
 const Header = () => {
   return (
     <div className="Header">
-      <Link to="/Zhchs" className="H_logo">
+      <Link to="/Zh-chs" className="H_logo">
         <img src={Header_logo} alt="lyncarelogo" />
       </Link>
 
@@ -42,7 +42,7 @@ const Header = () => {
             </li>
 
           <li className="dep2">
-            <Link to="/MainZhchs">
+            <Link to="/Zh-chs">
                 <span>🇨🇳 華語(繁體)</span>
               </Link>
             </li>

@@ -43,7 +43,7 @@ function Sidebar() {
           <Link to="/Support" onClick={closeSidebar}><p>지원</p></Link>
           <Link to="/Contact" onClick={closeSidebar}><p>문의</p></Link>
           <Link to="/" onClick={closeSidebar}><p>🇰🇷 한국어</p></Link>
-          <Link to="/Zhchs" onClick={closeSidebar}><p>🇨🇳 華語(繁體)</p></Link>
+          <Link to="/Zh-chs" onClick={closeSidebar}><p>🇨🇳 華語(繁體)</p></Link>
         </div>
       )}
     </div>

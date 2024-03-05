@@ -47,7 +47,7 @@ function App() {
         <HeaderZhchs />
         <SidebarZhchs />
         <Routes>
-          <Route path='/Zhchs' element={<Zhchs />} />
+          <Route path='/Zh-chs' element={<Zhchs />} />
           <Route path='/aboutZhchs' element={<AboutZhchs />} />
           <Route path='/productZhchs' element={<ProductZhchs />} />
           <Route path='/supportZhchs' element={<SupportZhchs />} />
@@ -70,7 +70,7 @@ function App() {
           <Route path='/contact' element={<Contact setSending={setSending} />} />
       </Route>
       <Route element={<LayoutChina />}>
-        <Route path='/Zhchs' element={<Zhchs />} />
+        <Route path='/Zh-chs' element={<Zhchs />} />
           <Route path='/aboutZhchs' element={<AboutZhchs />} />
           <Route path='/productZhchs' element={<ProductZhchs />} />
           <Route path='/supportZhchs' element={<SupportZhchs />} />

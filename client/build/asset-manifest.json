@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2084a8d0.css",
-    "main.js": "/static/js/main.d00d9ac9.js",
+    "main.js": "/static/js/main.d58df9f1.js",
     "static/js/787.d5fa4d18.chunk.js": "/static/js/787.d5fa4d18.chunk.js",
     "static/media/MainVideo1440p.mp4": "/static/media/MainVideo1440p.3aa488b8885f082e4b49.mp4",
     "static/media/VehicleCompatibilityTable.png": "/static/media/VehicleCompatibilityTable.1627868584743b10cea6.png",
@@ -49,11 +49,11 @@
     "static/media/Ministry_of_Science_and_Technology.png": "/static/media/Ministry_of_Science_and_Technology.84b383049d7bd7c50041.png",
     "index.html": "/index.html",
     "main.2084a8d0.css.map": "/static/css/main.2084a8d0.css.map",
-    "main.d00d9ac9.js.map": "/static/js/main.d00d9ac9.js.map",
+    "main.d58df9f1.js.map": "/static/js/main.d58df9f1.js.map",
     "787.d5fa4d18.chunk.js.map": "/static/js/787.d5fa4d18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2084a8d0.css",
-    "static/js/main.d00d9ac9.js"
+    "static/js/main.d58df9f1.js"
   ]
 }
