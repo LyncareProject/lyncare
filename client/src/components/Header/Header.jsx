@@ -45,7 +45,7 @@ const Header = () => {
 
           <li className="dep2">
             <Link to="/Zh-chs">
-                <span>🇨🇳 華語(繁體)</span>
+                <span>🇨🇳 华语(简体)</span>
               </Link>
             </li>
         </ol>

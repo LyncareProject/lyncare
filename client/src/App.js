@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Route, Routes, useNavigate } from 'react-router-dom';
 import './App.css';
 import Main from './pages/Main';
 import About from './pages/About/About';
@@ -20,6 +20,18 @@ import SupportZhchs from './pages/Support/SupportZhchs';
 import ContactZhchs from './pages/Contact/ContactZhchs';  
 
 function App() {
+  const lang = navigator.language.toLowerCase().substring(0.2);
+  const navigate = useNavigate();
+  useEffect(() => {
+    if (lang === "zh") {
+      if (window.location.href.indexOf("zh-chs") !== -1) {
+        return !1;
+      } else {
+        navigate("/Zh-chs");
+      }
+    }
+  }, []);
+
   const [sending, setSending] = useState(false);
 
   const Layout = ({children}) => {
