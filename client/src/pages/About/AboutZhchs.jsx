@@ -1,15 +1,15 @@
 import './About.css'
-import About_bg from './../../components/images/About/About_bg.png'
+import About_bg from './../../components/images/About/About_bg.jpg'
 import CEO_KIM from './../../components/images/About/CEO_KIM.png'
-import CoreValue from './../../components/images/About/CoreValue.png'
-import History from './../../components/images/About/History.png'
+import CoreValue from './../../components/images/About/CoreValue.jpg'
+import History from './../../components/images/About/History.jpg'
 import History_bg from './../../components/images/About/History_bg.png'
 import Certifications_Ls from './../../components/images/About/Certifications_Ls.png'
 import Certifications_Ss from './../../components/images/About/Certifications_Ss.png'
-import Box1 from './../../components/images/About/Box1_ResearchInstituteSpin-offCompany.png'
-import Box2 from './../../components/images/About/Box2_SelectedAsGovernmentSupportProject.png'
-import Box3 from './../../components/images/About/Box3_SelectedAsGovernmentSupportProject.png'
-import Box4 from './../../components/images/About/Box4_SelectedAsGovernmentSupportProject.png'
+import Box1 from './../../components/images/About/Box1_ResearchInstituteSpin-offCompany.jpg'
+import Box2 from './../../components/images/About/Box2_SelectedAsGovernmentSupportProject.jpg'
+import Box3 from './../../components/images/About/Box3_SelectedAsGovernmentSupportProject.jpg'
+import Box4 from './../../components/images/About/Box4_SelectedAsGovernmentSupportProject.jpg'
 
 const about = ()=>{
   return (

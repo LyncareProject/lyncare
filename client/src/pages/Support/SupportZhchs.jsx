@@ -1,5 +1,5 @@
 import './Support.css'
-import Support_bg from './../../components/images/Support/Support.png'
+import Support_bg from './../../components/images/Support/Support.jpg'
 import VehicleCompatibilityTable from './../../components/images/Support/VehicleCompatibilityTable.png'
 import HowToReplacefilter from './../../components/images/Support/HowToReplacefilter.png'
 import SearchFilterZhchs from '../../components/SearchFilter/SearchFilterZhchs'

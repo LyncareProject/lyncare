@@ -1,5 +1,5 @@
 import "./Contact.css";
-import Contact_bg from "./../../components/images/Contact/Contact.png";
+import Contact_bg from "./../../components/images/Contact/Contact.jpg";
 import callImg from "./../../components/images/Contact/call.png";
 import emailImg from "./../../components/images/Contact/email.png";
 import { useState } from "react";
