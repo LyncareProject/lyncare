@@ -23,7 +23,7 @@ return (
       <div className='section1_text'>
         <h2 className='section_text1'>Fresh Drive</h2>
         <h2 className='section_text2'>
-        为了更清新的驾驶
+        为了更清新的驾驶 &nbsp; 
           <br />
           为了更美好的生活。
         </h2 >

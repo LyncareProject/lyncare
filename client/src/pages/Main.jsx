@@ -21,7 +21,7 @@ return (
       <div className='section1_text'>
         <h2 className='section_text1'>Fresh Drive</h2>
         <h2 className='section_text2'>
-          더 상쾌한 드라이브
+          더 상쾌한 드라이브 &nbsp; 
           <br />
           라이프 스타일을 위해.
         </h2 >
