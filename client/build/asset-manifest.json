@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.f1711c34.css",
-    "main.js": "/static/js/main.4a2d09f9.js",
+    "main.js": "/static/js/main.a14e3e76.js",
     "static/js/787.d5fa4d18.chunk.js": "/static/js/787.d5fa4d18.chunk.js",
+    "static/media/MainVideo1440p.mp4": "/static/media/MainVideo1440p.39440f0eca36aa9fff5e.mp4",
     "static/media/VehicleCompatibilityTable.png": "/static/media/VehicleCompatibilityTable.1627868584743b10cea6.png",
-    "static/media/MainVideo1440p.mp4": "/static/media/MainVideo1440p.0a17090ac4d90c33f0cc.mp4",
     "static/media/Main_bg.png": "/static/media/Main_bg.22b92e398b130dcd6b3f.png",
     "static/media/Main_products.png": "/static/media/Main_products.9d402350ae0a5cd7919b.png",
     "static/media/Dblock_filter.png": "/static/media/Dblock_filter.203fb66f63ae3f20b097.png",
@@ -58,11 +58,11 @@
     "static/media/Box1_ResearchInstituteSpin-offCompany.jpg": "/static/media/Box1_ResearchInstituteSpin-offCompany.cc329cb6ec66ae6d3d78.jpg",
     "index.html": "/index.html",
     "main.f1711c34.css.map": "/static/css/main.f1711c34.css.map",
-    "main.4a2d09f9.js.map": "/static/js/main.4a2d09f9.js.map",
+    "main.a14e3e76.js.map": "/static/js/main.a14e3e76.js.map",
     "787.d5fa4d18.chunk.js.map": "/static/js/787.d5fa4d18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f1711c34.css",
-    "static/js/main.4a2d09f9.js"
+    "static/js/main.a14e3e76.js"
   ]
 }
