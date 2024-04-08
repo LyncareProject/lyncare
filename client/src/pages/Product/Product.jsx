@@ -39,7 +39,7 @@ const Product = ()=>{
             </div>
 
             <div className='Special'>
-                <h3>디블럭이 다른 이유  <span>What’s Special?</span></h3>
+                <h3 className='Special_Dblock'>디블럭이 다른 이유  <span>What’s Special?</span></h3>
                 <div className='Special1'>
                     <div className='Special1_1'>
                         <h3>일반활성탄이 아닌 <span>고급 야자활성탄으로</span></h3>

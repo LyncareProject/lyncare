@@ -38,7 +38,7 @@ const Product = ()=>{
             </div>
 
             <div className='Special'>
-                <h3>D.BLOCK不同的理由  <span>What’s Special?</span></h3>
+                <h3 className='Special_Dblock'>D.BLOCK不同的理由  <span>What’s Special?</span></h3>
                 <div className='Special1'>
                     <div className='Special1_1'>
                         <h3><span>不是一般的活性炭，而是高级椰壳活性炭</span></h3>
