@@ -1,14 +1,14 @@
 import './Product.css'
 import { Link } from 'react-router-dom';
-import Product_bg from './../../components/images/Product/Product_bg.png'
+import Product_bg from './../../components/images/Product/Product_bg.jpg'
 import car_airflow from './../../components/images/Product/car_airflow.png'
 import Dblock_filter from './../../components/images/Product/Dblock_filter.png'
 import box1 from './../../components/images/Product/box1_activatedcarbon.png'
-import box2 from './../../components/images/Product/box2_content.png'
-import box3 from './../../components/images/Product/box3_LMF.png'
-import box4 from './../../components/images/Product/box4_7layerstructure.png'
+import box2 from './../../components/images/Product/box2_content.jpg'
+import box3 from './../../components/images/Product/box3_LMF.jpg'
+import box4 from './../../components/images/Product/box4_7layerstructure.jpg'
 import box5 from './../../components/images/Product/box5_substitute.png'
-import box6 from './../../components/images/Product/box6_Registeredcompany.png'
+import box6 from './../../components/images/Product/box6_Registeredcompany.jpg'
 import wooridongne from './../../components/images/Product/wooridongne.png'
 
 const Product = ()=>{
@@ -56,7 +56,7 @@ const Product = ()=>{
                 <div className='Special1_1'>
                         <h3>每平方米椰壳活性炭含量最高可达 <span>230g</span>克！ </h3>
                         <p>
-                         <span>采用与普通滤芯不同的方式，将高级椰壳树活性炭颗粒 활성탄 알갱이를</span> <br />
+                         <span>采用与普通滤芯不同的方式，将高级椰壳树活性炭颗粒 </span> <br />
                         <span>原封不动地添加到滤芯中，最多添加4.5倍。</span>
                         </p>
                     </div>
