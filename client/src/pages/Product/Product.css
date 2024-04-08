@@ -80,7 +80,6 @@ hr{
 
 /* Dblock_filter */
 .Dblock_filter h3{
-    position: relative;
     color: #000;
     font-family: Pretendard;
     font-size: 30px;
@@ -90,9 +89,6 @@ hr{
     letter-spacing: -0.9px;
 }
 .Dblock_filter h3 span{
-    position: absolute;
-    top: 8px;
-    margin-left: 20px;
     color: #000;
     font-family: Pretendard;
     font-size: 17px;
@@ -115,11 +111,15 @@ hr{
     display: block;
     width: 100%;
 }
+.Dblock_filter br {
+    display: none;
+}
+.Dblock_filter span{
+    margin-left: 20px;
+}
 
 /* Special */
-.Special{
-    
-}
+
 .Special h3{
     color: #000;
     font-family: Pretendard;
@@ -215,7 +215,7 @@ hr{
 }
 
 /* Platform */
-.Platform{}
+
 .Platform h3{color: #000;
     font-family: Pretendard;
     font-size: 30px;
@@ -239,7 +239,7 @@ hr{
     letter-spacing: -0.48px;}
 
 /* wooridongne */
-.wooridongne{}
+
 .wooridongne h3{
     color: #000;
     font-family: Pretendard;
@@ -283,10 +283,11 @@ hr{
     }
 
     .Special h3{
-        margin-top: 50px;
+        margin-top: 10px;
     }
+
     .Special1{
-        display:inline-block;
+        display:block;
         
     }
     .Special1_1{
@@ -299,7 +300,7 @@ hr{
     }
     .Special1_2{
         width: 100%;
-        margin-top: 13px;
+        margin-top: 10px;
     }
     
     br{
@@ -317,13 +318,19 @@ hr{
      .Dblock_filter span{
        margin-top: 30px;
        padding-bottom: 10px;
+       margin-left: 0;
        text-indent: -20px;  
+     }
+     .CabinFilter_1 br{
+        width: 100%;
+        display:none;
      }
 
 }
 
 @media  (max-width: 800px){
     .Dblock_filter h3 {
+        margin-top: 10px;
         margin-bottom: 30px;
     }
     .Dblock_filter h3 span{
@@ -332,7 +339,7 @@ hr{
     .Special1_1 h3{
         font-size: 18px;
         line-height: 15px;
-        margin-top: 15px;
+        margin-top: 7px;
         margin-left: 15px;
         margin-bottom: -5px;
     }
@@ -356,4 +363,5 @@ hr{
     .Special5 .Special5_link{
         margin-top: 5px;
     }
+  
 }
