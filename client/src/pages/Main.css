@@ -378,7 +378,7 @@ letter-spacing: -0.78px;
     .section1_text .section_text1{
         margin-top: 40px;
     }
-    .section1_text{margin-bottom: 0;}
+    .section1_text{margin-bottom: 0; }
     .products_bg h3{
         font-size: 26px;
         line-height: 2;
@@ -407,4 +407,8 @@ letter-spacing: -0.78px;
         padding: 0;
     }
 
+}
+
+@media  (max-width: 480px){
+    .section1_text{display: none;}
 }
